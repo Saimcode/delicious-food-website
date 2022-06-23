@@ -1,0 +1,181 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Square+Peg&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700&display=swap");
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+  --nav-width: 0px;
+  --first-color: #c9850f;
+  --first-color-dark: #7e530f;
+  --first-color-darker: #362605;
+  --text-color: #737373;
+  --text-color-light: #b5b5b5;
+  --text-color-dark: #3f3f3f;
+  --first-color-light: #fddba9;
+  --first-color-light2: #b39d5c;
+  --first-color-lighten: #fff9ef;
+  --white-color: #F7F6FB;
+  --body-font: "Nunito", "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --h4-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+  --font-lighter: 300;
+  --font-light: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+  --mb-7: 3.5rem;
+  --mb-8: 4rem;
+  --mb-9: 4.5rem;
+  --mb-10: 5rem;
+  --mb-11: 5.5rem;
+  --mb-12: 6rem;
+  --z-normal: 1;
+  --z-2: 2;
+  --z-3: 3;
+  --z-10: 10;
+  --z-20: 20;
+  --z-30: 30;
+  --z-30: 40;
+  --z-50: 50;
+  --z-60: 60;
+  --z-70: 70;
+  --z-80: 80;
+  --z-90: 90;
+  --z-95: 95;
+  --z-fixed: 100;
+  --z-preloader: 9999;
+}
+
+/*--------------------------------------------------------------
+# BASICS
+--------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background: #e9b83c;
+  color: white;
+}
+*::selection {
+  background: #e9b83c;
+  color: white;
+}
+*::before {
+  box-sizing: border-box;
+}
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  transition: 0.5s;
+  margin: 0 10%;
+  padding: 0px;
+  overflow-x: hidden;
+}
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--first-color);
+  cursor: pointer;
+}
+a:hover {
+  color: var(--first-color-dark);
+  text-decoration: none;
+}
+
+img {
+  pointer-events: all;
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+  font-weight: var(--font-medium);
+  color: var(--text-color);
+  margin: 0 var(--mb-2);
+  padding: 0;
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  color: var(--text-color);
+  line-height: 2rem;
+  margin: var(--mb-2) 0;
+  padding: 0;
+}
+
+/*--------------------------------------------------------------
+# CUSTOM SCROLLBAR
+--------------------------------------------------------------*/
+html {
+  scrollbar-color: var(--first-color-light) var(--first-color-dark);
+  scrollbar-width: thin;
+}
+html::-webkit-scrollbar {
+  width: 0.6vw;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: var(--first-color);
+}
+html::-webkit-scrollbar-thumb:hover {
+  background-color: var(--first-color-light);
+}
+html::-webkit-scrollbar-track {
+  background-color: var(--first-color-dark);
+}
+
+/*--------------------------------------------------------------
+# Search Bar
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Logo Hover Effects
+--------------------------------------------------------------*/
+.logo {
+  color: var(--text-color);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.logo:hover {
+  color: var(--first-color);
+}
+.logo:hover .logo-name {
+  color: var(--first-color);
+}
+.logo svg {
+  font-size: 1.2rem;
+  margin-right: 0.4rem;
+}
+@media (max-width: 1024px) {
+  .logo {
+    margin-right: 0.5rem;
+  }
+}
+
+/*--------------------------------------------------------------
+# Mobile Navbar
+--------------------------------------------------------------*//*# sourceMappingURL=index.css.map */

@@ -5,7 +5,6 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa'
 function Footer() {
   return (
     
-    // Create a footer with copyright and links to the other pages
     <FooterContainer>
           <p>&copy; 2022 <a target="_blank" href='https://saimcode.vercel.app'>Saimcode</a> All Rights Reserved.</p>
       <SocialLinks>

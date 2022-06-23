@@ -5,9 +5,6 @@ import {NavLink} from 'react-router-dom';
 import {useState} from 'react';
 
 function Category() {
-
-    // create a function when the screen width is less than 768px, the list will be displayed in a dropdown menu
-
   return (
     <List className='category-mobile'>
         <NavLink to={"/cuisine/Italian"} className="nav-link">

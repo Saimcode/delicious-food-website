@@ -24,10 +24,10 @@ function Recipe() {
         console.log(params.id);
     }, [params.id]);
 
-    // Get only first 4 dishTypes from details.dishTypes array. Else, display "Tasty Recipe"
+    // Get dishTypes from details.dishTypes array. Else, display "Tasty Recipe"
     const dishTypes = details.dishTypes ? details.dishTypes.join(" ") : "Tasty Recipe";
 
-    // Get the creditsText of details. If it is not empty, display it. Else, display "Anonymous"
+    // Get the creditsText of details. Else, display "Unknown"
     const getCreditsText = details.creditsText ? details.creditsText : "Unknown";
 
     return (

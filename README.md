@@ -5,7 +5,7 @@ This is my first React JS project. This food recipe web application is built wit
 ## 🔧 Getting Started
 
 ### 📍 Dependencies
-* Node.js - You will need to have node js installed on your device. If you don't have it yet, install it from [here.](https://nodejs.org/en/).
+* Node.js - You will need to have node js installed on your device. If you don't have it yet, install it from [here](https://nodejs.org/en/).
 * Spoonacular API - You will need to make an account on [Spoonacular API Website](https://spoonacular.com/food-api) and get the API Key by clicking 'My Console' then 'Profile'.
 * .env file - Create a file and name it `.env` in the main directory of the project where the `README.md` and `package.json` file is located. Then add this text in your `.env` file: `REACT_APP_API_KEY=(Replace-this-with-your-api-key-from-spoonacular)`. Make sure to remove the brackets when you add your api key.
 

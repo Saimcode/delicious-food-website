@@ -41,6 +41,12 @@ Contact me on the links below:
 * [Linkedin](https://www.linkedin.com/in/saim-qureshi-703060234?original_referer=https%3A%2F%2Fsaimcode.github.io%2F)
 * [Instagram](https://www.instagram.com/_saim.f/)
 
+## 🛠 Languages & Tools Used
+
+* React JS for building the UI
+* SCSS / CSS for styling components
+* [Spoonacular API](https://spoonacular.com/food-api) to fetch recipes and data
+
 ## 🕔 Version History
 
 * Version 1.1 (Current)
@@ -49,11 +55,9 @@ Contact me on the links below:
 * Version 1.0
     * Initial Release
 
-## 🛠 Languages & Tools Used
+## 📝 Credits
 
-* React JS for building the UI
-* SCSS / CSS for styling components
-* [Spoonacular API](https://spoonacular.com/food-api) to fetch recipes and data
+Setup provided by [Dev Ed](https://github.com/developedbyed/)'s youtube [video](https://youtu.be/xc4uOzlndAk).
 
 ## ©️ License
 

@@ -11,26 +11,26 @@ This is my first React JS project. This food recipe web application is built wit
 
 ### 📍 Installation & Setup Instructions
 
-#### Download this repository or clone it via Git using the commands below:
+#### 1. Download this repository or clone it via Git using the commands below:
 
     $ git clone https://github.com/Saimcode/delicious-food-website.git
     $ cd delicious-food-website
     
-#### Install ``node_modules`` and other dependencies:
+#### 2. Install `node_modules` and other dependencies:
 
     $ npm install
     $ npm install react-icons styled-components framer-motion react-router-dom
     
-#### Start the development server
+#### 3. Start the development server
 
     $ npm start
 
-#### Simple build for production
-
-    $ npm run build
-
 ### 📍 Using the application
 
+It's a web-based program so you would need the following:
+
+* Any OS (depending on your device).
+* A browser to run the application.
 * Link to the website: [Delicious | Food Recipe Website](https://admirable-figolla-2fc73f.netlify.app/)
 
 ## ❔ Help

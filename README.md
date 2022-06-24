@@ -34,6 +34,7 @@ It's a web-based program so you would need the following:
 * Any OS (depending on your device).
 * A browser to run the application.
 * Link to the website: [Delicious | Food Recipe Website](https://admirable-figolla-2fc73f.netlify.app/)
+* ⚠️NOTE: I am using free version of Spoonacular which restricts the user requests to 150 per day. So, if the website link above is not showing any recipes then that means the requests have reached their daily limit. Apologies for this.
 
 ## ❔ Help
 

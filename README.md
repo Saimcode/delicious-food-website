@@ -16,7 +16,7 @@ This is my first React JS project. This food recipe web application is built wit
     $ git clone https://github.com/Saimcode/delicious-food-website.git
     $ cd delicious-food-website
     
-#### Install `node_modules` and other dependencies:
+#### Install ``node_modules`` and other dependencies:
 
     $ npm install
     $ npm install react-icons styled-components framer-motion react-router-dom

@@ -2,6 +2,8 @@
 
 This is my first React JS project. This food recipe web application is built with React JS and Spoonacular API which allows the user to search for a recipe by name, or by cuisine category options available in the navbar. On clicking a recipe, the user will be displayed a screen with the title of recipe, its image, summary and step by step instructions of the recipe. On clicking the Ingredients Button, user will be able to see the ingredients of that recipe.
 
+![🍕 Delicious | Food Recipe Website built with React JS](https://github.com/Saimcode/delicious-food-website/blob/main/Food-App-Thumbnail.png?raw=true)
+
 ## 🔧 Getting Started
 
 ### 📍 Dependencies

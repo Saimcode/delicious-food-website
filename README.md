@@ -5,21 +5,39 @@ This is my first React JS project. This food recipe web application is built wit
 ## 🔧 Getting Started
 
 ### 📍 Dependencies
+* Node.js - You will need to have node js installed on your device. If you don't have it yet, install it from [here.](https://nodejs.org/en/).
+* Spoonacular API - You will need to make an account on [Spoonacular API Website](https://spoonacular.com/food-api) and get the API Key by clicking 'My Console' then 'Profile'.
+* .env file - Create a file and name it `.env` in the main directory of the project where the `README.md` and `package.json` file is located. Then add this text in your `.env` file: `REACT_APP_API_KEY=(Replace-this-with-your-api-key-from-spoonacular)`. Make sure to remove the brackets when you add your api key.
 
-It's a web-based program so you would need the following:
+### 📍 Installation & Setup Instructions
 
-* Any OS (depending on your device).
-* A browser to run the application.
+#### Download this repository or clone it via Git using the commands below:
+
+    $ git clone https://github.com/Saimcode/delicious-food-website.git
+    $ cd delicious-food-website
+    
+#### Install `node_modules` and other dependencies:
+
+    $ npm install
+    $ npm install react-icons styled-components framer-motion react-router-dom
+    
+#### Start the development server
+
+    $ npm start
+
+#### Simple build for production
+
+    $ npm run build
 
 ### 📍 Using the application
 
-* Link to the application: [Delicious | Food Recipe Website](https://admirable-figolla-2fc73f.netlify.app/)
-* Or you can view the program from my portfolio: [My Portfolio](https://saimcode.github.io/myportfolio/)
+* Link to the website: [Delicious | Food Recipe Website](https://admirable-figolla-2fc73f.netlify.app/)
 
 ## ❔ Help
 
 Contact me on the links below:
 * [Linkedin](https://www.linkedin.com/in/saim-qureshi-703060234?original_referer=https%3A%2F%2Fsaimcode.github.io%2F)
+* [Instagram](https://www.linkedin.com/in/saim-qureshi-703060234?original_referer=https%3A%2F%2Fsaimcode.github.io%2F)
 
 ## 🕔 Version History
 
@@ -29,11 +47,11 @@ Contact me on the links below:
 * Version 1.0
     * Initial Release
 
-## 🛠 Built With
+## 🛠 Languages & Tools Used
 
-* React JS
-* SCSS / CSS
-* [Spoonacular API](https://spoonacular.com/food-api)
+* React JS for building the UI
+* SCSS / CSS for styling components
+* [Spoonacular API](https://spoonacular.com/food-api) to fetch recipes and data
 
 ## ©️ License
 
